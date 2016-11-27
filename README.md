@@ -24,7 +24,18 @@ The library requires the hash implementation found at:
 Building
 --------
 
-make
+First download and build the hash code from:
+   https://github.com/SparkiDev/hash
+
+The two repositories, hash and random, must be in the same directory.
+For example:
+cryptography --- hash
+             |
+             --- random
+
+Then build, in the directory random, with the command:
+
+  make
 
 Testing
 -------
